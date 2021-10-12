@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="header">
+      <div class="title"><h1 style="margin:5px"><i class="fas fa-clipboard-list"></i> To Do List</h1></div>
+      <div class="title1">
+            <input type="text" id="myInput" placeholder="Add your new todo">
+            <button onclick="newElement()" class="addBtn"><i class="fas fa-plus"></i></button>
+      </div>
+    
+    </div>
+    <ul id="myUL">
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">Clear All</button>
+    <script src="script.js"></script>
+  </body>
+</html>
